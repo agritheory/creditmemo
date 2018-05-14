@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include creditmemo *.css
+recursive-include creditmemo *.csv
+recursive-include creditmemo *.html
+recursive-include creditmemo *.ico
+recursive-include creditmemo *.js
+recursive-include creditmemo *.json
+recursive-include creditmemo *.md
+recursive-include creditmemo *.png
+recursive-include creditmemo *.py
+recursive-include creditmemo *.svg
+recursive-include creditmemo *.txt
+recursive-exclude creditmemo *.pyc
