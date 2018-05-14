@@ -6,9 +6,9 @@ app_name = "creditmemo"
 app_title = "Credit Memo"
 app_publisher = "AgriTheory"
 app_description = "Credit Memo"
-app_icon = "octicon octicon-file-directory"
-app_color = "grey"
-app_email = "tyler@agritheory"
+app_icon = "assets/creditmemo/images/aticonw.svg",
+app_color = "#000000",
+app_email = "tyler@agritheory.com"
 app_license = "MIT"
 
 # Includes in <head>
@@ -17,10 +17,12 @@ app_license = "MIT"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/creditmemo/css/creditmemo.css"
 # app_include_js = "/assets/creditmemo/js/creditmemo.js"
+# app_include_js = "/assets/creditmemo/images/aticon.svg"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/creditmemo/css/creditmemo.css"
 # web_include_js = "/assets/creditmemo/js/creditmemo.js"
+# web_include_js = "/assets/creditmemo/images/aticon.svg"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -119,4 +121,3 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "creditmemo.event.get_events"
 # }
-

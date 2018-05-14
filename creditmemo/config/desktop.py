@@ -6,8 +6,8 @@ def get_data():
 	return [
 		{
 			"module_name": "Credit Memo",
-			"color": "grey",
-			"icon": "octicon octicon-file-directory",
+			"color": "#000000",
+			"icon": "assets/creditmemo/images/aticonw.svg",
 			"type": "module",
 			"label": _("Credit Memo")
 		}
